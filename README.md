@@ -1,75 +1,65 @@
-# Site EBAC Games
+# EBAC Games Website
 
-<img src="public/games.png">
+![Imagem de jogos](public/games.png)
 
-Este site de games foi construído com **Redux**, estilizado com **Styled Components**, que permite a inserção
-de games no carrinho de compras, e o acumulo do valor total dos jogos inseridos no carrinho de compras.
+Este website de jogos foi desenvolvido com **Redux** e estilizado usando **Styled Components**. Ele permite a adição de jogos ao carrinho de compras e o cálculo do valor total dos jogos no carrinho.
 
-Projeto desenvolvido no curso de Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
+Projeto realizado como parte do curso Full Stack Python da EBAC - Escola Britânica de Artes Criativas e Tecnologia.
 
-## 🚀 Começando
+## 🌟 Começando
 
-Estas instruções permitirão que você obtenha uma cópia do projeto em execução em sua máquina local para fins de desenvolvimento e teste.
+Estas instruções irão ajudá-lo a obter uma cópia do projeto rodando em sua máquina local para desenvolvimento e testes.
 
 ### Pré-requisitos
 
 Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
 - **Node.js**
-- **NPM (geralmente vem com o Node.js)**
+- **NPM (normalmente instalado com o Node.js)**
 
-Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi iniciado com [Create React App](https://github.com/facebook/create-react-app).
 
 ### Instalação
 
-Siga estas etapas a seguir para configurar o ambiente de desenvolvimento:
+Siga os passos abaixo para configurar o ambiente de desenvolvimento:
 
-1. Clone este repositório em sua máquina local.
+1. Clone este repositório na sua máquina local.
 2. Navegue até o diretório clonado.
 3. Execute o seguinte comando para instalar as dependências:
 
-  **``npm install``**
+### Executando o projeto
 
-### Executar o projeto
+**Json Database** atua como um servidor de banco de dados simulado.
+Você pode iniciá-lo com o seguinte comando, especificando o arquivo e a porta do servidor:
 
-**Json Database** age como um servidor fake de banco de dados.
-Podemos instalar com o comando abaixo, passando o arquivo e a porta onde vai rodar o servidor.
 
-  **``npx json-server db.json --port 4000``**
+Para executar o projeto em modo de desenvolvimento, use o comando:
 
-Para executar o projeto em modo de desenvolvimento, execute o comando:
 
-  **``npm start``**
+Abra [http://localhost:3000](http://localhost:3000) para visualizar no navegador.
 
-Abra [http://localhost:3000](http://localhost:3000) para visualizar no browser.
+A página será recarregada automaticamente se você fizer alterações.
+Erros de Lint serão exibidos no console, se houver.
 
-A página irá recarregar se alterações forem feitas.
-Você também verá Lint erros no console, se existirem.
+Para executar o projeto em produção, use o comando:
 
-Para executar o projeto em produção, execute o comando:
 
-  **``npm run build``**
+Isso compila o aplicativo para produção na pasta 'build'.
+O pacote React é otimizado para produção, garantindo melhor performance.
 
-Constrói o app para produção na pasta 'build'.
-Corrige pacotes React em modo de produção e otimiza a contrução para uma melhor performance.
+## 🔧 Ferramentas utilizadas na construção do projeto
 
-## 🛠️ Ferramentas utilizadas para construção do projeto
+- **ESLint** - Linter para JavaScript e TypeScript.
+- **HTML** - Linguagem de marcação para páginas web.
+- **CSS** - Cascading Style Sheets para estilos de página web.
+- **ReactJS** - Biblioteca JavaScript para criar interfaces de usuário.
+- **Redux** - Biblioteca para gerenciamento de estado em aplicações JavaScript.
+- **TypeScript** - Superset de JavaScript que adiciona tipagem estática opcional.
+- **Styled Components** - Biblioteca para estilização de componentes React em JavaScript.
+- **Jest** - Framework de testes JavaScript.
+- **EditorConfig e Prettier** - Padrões de formatação de código.
+- **NPM** - Gerenciador de pacotes para JavaScript Node.JS.
 
-* **ESLint** - Linter, uma ferramenta de análise estática, para as linguagens Javascript e Typescript, sendo o mais popular do mundo para tais linguagens.
-* **HTML** - Linguagem de marcação utilizada na construção de páginas na Web.
-* **CSS** - Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web.
-* **ReactJS** - Biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.
-* **Redux** - É uma biblioteca JavaScript de código aberto para gerenciar o estado do aplicativo.
-* **TypeScript** - Linguagem OpenSource desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.
-* **Styled Components** - Uma biblioteca que nos permite escrever CSS em JavaScript enquanto construímos componentes customizados em ReactJS.
-* **Jest** - Framework de teste em JavaScript projetado para garantir a correção de qualquer código JavaScript.
-* **EditorConfig e Prettier** - Padrões de formatação de código no ambiente de desenvolvimento.
-* **NPM** - Gerenciador de pacotes padrão para o ambiente de tempo de execução JavaScript Node.JS.
+## 📚 Aprenda mais
 
-## 🎓 Aprenda mais
-
-Você pode aprender mais em [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-## ✒️ Autor
-
-Guilherme Ferreira Camargo
+Você pode aprender mais na [documentação do Create React App](https://facebook.github.io/create-react-app/docs/getting-started)
